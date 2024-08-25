@@ -7,4 +7,9 @@ bot.onText(/\/start/, (msg) => {
     bot.sendMessage(msg.chat.id, 'Hi! I am your Bot!');
 });
 
+// /help
+bot.onText(/\/help/, (msg) => {
+    bot.sendMessage(msg.chat.id, 'Available commands: \n/start - Greeting, \n/help - List of commands');
+});
+
 console.log('the bot is working...');
