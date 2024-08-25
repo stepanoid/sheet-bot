@@ -9,6 +9,7 @@
   "author": "stepa",
   "license": "ISC",
   "dependencies": {
+    "googleapis": "^142.0.0",
     "node-telegram-bot-api": "^0.66.0"
   }
 }
